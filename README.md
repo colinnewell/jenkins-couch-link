@@ -13,6 +13,6 @@ Creating a user can be done by using something like the `setup.sh` script doing 
 
 ## To use
 
-   ./jenkins-couch-link -user jenkins -password somepassword -host 192.168.128.2 builds.json 
+    ./jenkins-couch-link -user jenkins -password somepassword -host 192.168.128.2 builds.json
 
 Note that documents can only be inserted, it won't update existing builds in the database.
