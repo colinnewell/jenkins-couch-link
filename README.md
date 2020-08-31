@@ -2,16 +2,16 @@
 
 Program to upload Jenkins build info that has been analysed up to CouchDB
 
-To build:
+## To build
 
     go build
 
-Setup:
+## Setup
 
-    Ensure there is a DB and user for the program to use.  Creating the DB can be done easily from the /_util page.
-    Creating a user can be done by using something like the `setup.sh` script doing a curl.
+Ensure there is a DB and user for the program to use.  Creating the DB can be done easily from the /_util page.
+Creating a user can be done by using something like the `setup.sh` script doing a curl.
 
-To use:
+## To use
 
    ./jenkins-couch-link -user jenkins -password somepassword -host 192.168.128.2 builds.json 
 
